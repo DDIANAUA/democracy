@@ -397,11 +397,18 @@ body._lock {
 .exercise__title:not(:last-child) {
 	margin-block-end: clamp(0.75rem, 0.6071428571rem + 0.7142857143vw, 1.25rem);
 }
+.exercise__text-block p {
+	line-height: 1.2;
+}
 .exercise__text-block p:not(:last-child) {
 	margin-block-end: 0.9375rem;
 }
+.exercise__list:not(:last-child) {
+	margin-block-end: 0.9475rem;
+}
 .exercise__item {
 	list-style: disc;
+	line-height: 1.2;
 }
 .exercise__item:not(:last-child) {
 	margin-block-end: 0.625rem;
